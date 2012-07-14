@@ -1,0 +1,3 @@
+jp.co.wada811.quotetweet.plugin4twicca.QuoteTweetPlugin4twiccaActivity
+jp.co.wada811.quotetweet.plugin4twicca.R$drawable: int ic_launcher
+jp.co.wada811.quotetweet.plugin4twicca.R$string: int app_name

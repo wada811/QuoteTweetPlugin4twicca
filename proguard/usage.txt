@@ -1,0 +1,7 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+jp.co.wada811.quotetweet.plugin4twicca.BuildConfig
+jp.co.wada811.quotetweet.plugin4twicca.R
+jp.co.wada811.quotetweet.plugin4twicca.R$attr
+jp.co.wada811.quotetweet.plugin4twicca.R$drawable
+jp.co.wada811.quotetweet.plugin4twicca.R$string

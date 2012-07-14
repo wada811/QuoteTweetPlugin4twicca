@@ -1,0 +1,4 @@
+jp.co.wada811.quotetweet.plugin4twicca.QuoteTweetPlugin4twiccaActivity -> jp.co.wada811.quotetweet.plugin4twicca.QuoteTweetPlugin4twiccaActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+    void onStart() -> onStart
+    void tweet(android.content.Context,java.lang.String) -> a

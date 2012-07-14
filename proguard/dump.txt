@@ -1,0 +1,324 @@
+_____________________________________________________________________
++ Program class: jp/co/wada811/quotetweet/plugin4twicca/QuoteTweetPlugin4twiccaActivity
+  Superclass:    android/app/Activity
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class jp.co.wada811.quotetweet.plugin4twicca.QuoteTweetPlugin4twiccaActivity extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 119):
+  + String [ QT https://twitter.com/]
+  + String [/status/]
+  + String [android.intent.action.VIEW]
+  + String [android.intent.category.DEFAULT]
+  + String [https://twitter.com/intent/tweet]
+  + String [id]
+  + String [jp.r246.twicca]
+  + String [jp.r246.twicca.ACTION_SHOW_TWEET]
+  + String [text]
+  + String [user_screen_name]
+  + Class [android/app/Activity]
+  + Class [android/content/ActivityNotFoundException]
+  + Class [android/content/Context]
+  + Class [android/content/Intent]
+  + Class [android/net/Uri]
+  + Class [android/net/Uri$Builder]
+  + Class [java/lang/String]
+  + Class [java/lang/StringBuilder]
+  + Class [jp/co/wada811/quotetweet/plugin4twicca/QuoteTweetPlugin4twiccaActivity]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/app/Activity.onStart ()V]
+  + Methodref [android/content/Context.startActivity (Landroid/content/Intent;)V]
+  + Methodref [android/content/Intent.<init> (Ljava/lang/String;Landroid/net/Uri;)V]
+  + Methodref [android/content/Intent.addCategory (Ljava/lang/String;)Landroid/content/Intent;]
+  + Methodref [android/content/Intent.getAction ()Ljava/lang/String;]
+  + Methodref [android/content/Intent.getStringExtra (Ljava/lang/String;)Ljava/lang/String;]
+  + Methodref [android/content/Intent.setPackage (Ljava/lang/String;)Landroid/content/Intent;]
+  + Methodref [android/net/Uri.buildUpon ()Landroid/net/Uri$Builder;]
+  + Methodref [android/net/Uri.parse (Ljava/lang/String;)Landroid/net/Uri;]
+  + Methodref [android/net/Uri$Builder.appendQueryParameter (Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri$Builder;]
+  + Methodref [android/net/Uri$Builder.build ()Landroid/net/Uri;]
+  + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+  + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + Methodref [jp/co/wada811/quotetweet/plugin4twicca/QuoteTweetPlugin4twiccaActivity.a (Landroid/content/Context;Ljava/lang/String;)V]
+  + Methodref [jp/co/wada811/quotetweet/plugin4twicca/QuoteTweetPlugin4twiccaActivity.finish ()V]
+  + Methodref [jp/co/wada811/quotetweet/plugin4twicca/QuoteTweetPlugin4twiccaActivity.getIntent ()Landroid/content/Intent;]
+  + Methodref [jp/co/wada811/quotetweet/plugin4twicca/QuoteTweetPlugin4twiccaActivity.setResult (I)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [<init> (Ljava/lang/String;Landroid/net/Uri;)V]
+  + NameAndType [a (Landroid/content/Context;Ljava/lang/String;)V]
+  + NameAndType [addCategory (Ljava/lang/String;)Landroid/content/Intent;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [appendQueryParameter (Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri$Builder;]
+  + NameAndType [build ()Landroid/net/Uri;]
+  + NameAndType [buildUpon ()Landroid/net/Uri$Builder;]
+  + NameAndType [equals (Ljava/lang/Object;)Z]
+  + NameAndType [finish ()V]
+  + NameAndType [getAction ()Ljava/lang/String;]
+  + NameAndType [getIntent ()Landroid/content/Intent;]
+  + NameAndType [getStringExtra (Ljava/lang/String;)Ljava/lang/String;]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [onStart ()V]
+  + NameAndType [parse (Ljava/lang/String;)Landroid/net/Uri;]
+  + NameAndType [setPackage (Ljava/lang/String;)Landroid/content/Intent;]
+  + NameAndType [setResult (I)V]
+  + NameAndType [startActivity (Landroid/content/Intent;)V]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 [ QT https://twitter.com/]
+  + Utf8 [()Landroid/content/Intent;]
+  + Utf8 [()Landroid/net/Uri$Builder;]
+  + Utf8 [()Landroid/net/Uri;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/String;)V]
+  + Utf8 [(Landroid/content/Intent;)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [(Ljava/lang/String;)Landroid/content/Intent;]
+  + Utf8 [(Ljava/lang/String;)Landroid/net/Uri;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/String;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;Landroid/net/Uri;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri$Builder;]
+  + Utf8 [/status/]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [addCategory]
+  + Utf8 [android.intent.action.VIEW]
+  + Utf8 [android.intent.category.DEFAULT]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/content/ActivityNotFoundException]
+  + Utf8 [android/content/Context]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/net/Uri]
+  + Utf8 [android/net/Uri$Builder]
+  + Utf8 [append]
+  + Utf8 [appendQueryParameter]
+  + Utf8 [build]
+  + Utf8 [buildUpon]
+  + Utf8 [equals]
+  + Utf8 [finish]
+  + Utf8 [getAction]
+  + Utf8 [getIntent]
+  + Utf8 [getStringExtra]
+  + Utf8 [https://twitter.com/intent/tweet]
+  + Utf8 [id]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [jp.r246.twicca]
+  + Utf8 [jp.r246.twicca.ACTION_SHOW_TWEET]
+  + Utf8 [jp/co/wada811/quotetweet/plugin4twicca/QuoteTweetPlugin4twiccaActivity]
+  + Utf8 [onCreate]
+  + Utf8 [onStart]
+  + Utf8 [parse]
+  + Utf8 [setPackage]
+  + Utf8 [setResult]
+  + Utf8 [startActivity]
+  + Utf8 [text]
+  + Utf8 [toString]
+  + Utf8 [user_screen_name]
+
+Fields (count = 0):
+
+Methods (count = 4):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public QuoteTweetPlugin4twiccaActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #20
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #21
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onStart()V
+    Access flags: 0x4
+      = protected void onStart()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 107, locals = 6, stack = 3):
+      [0] aload_0 v0
+      [1] invokespecial #22
+        + Methodref [android/app/Activity.onStart ()V]
+      [4] aload_0 v0
+      [5] invokevirtual #39
+        + Methodref [jp/co/wada811/quotetweet/plugin4twicca/QuoteTweetPlugin4twiccaActivity.getIntent ()Landroid/content/Intent;]
+      [8] astore_1 v1
+      [9] aload_1 v1
+      [10] ifnonnull +12 (target=22)
+      [13] aload_0 v0
+      [14] iconst_0
+      [15] invokevirtual #40
+        + Methodref [jp/co/wada811/quotetweet/plugin4twicca/QuoteTweetPlugin4twiccaActivity.setResult (I)V]
+      [18] aload_0 v0
+      [19] invokevirtual #38
+        + Methodref [jp/co/wada811/quotetweet/plugin4twicca/QuoteTweetPlugin4twiccaActivity.finish ()V]
+      [22] aload_1 v1
+      [23] invokevirtual #26
+        + Methodref [android/content/Intent.getAction ()Ljava/lang/String;]
+      [26] astore_2 v2
+      [27] aload_2 v2
+      [28] ldc #8
+        + String [jp.r246.twicca.ACTION_SHOW_TWEET]
+      [30] invokevirtual #33
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [33] ifeq +64 (target=97)
+      [36] aload_1 v1
+      [37] ldc #6
+        + String [id]
+      [39] invokevirtual #27
+        + Methodref [android/content/Intent.getStringExtra (Ljava/lang/String;)Ljava/lang/String;]
+      [42] astore_3 v3
+      [43] aload_1 v1
+      [44] ldc #10
+        + String [user_screen_name]
+      [46] invokevirtual #27
+        + Methodref [android/content/Intent.getStringExtra (Ljava/lang/String;)Ljava/lang/String;]
+      [49] astore v4
+      [51] new #18
+        + Class [java/lang/StringBuilder]
+      [54] dup
+      [55] ldc #1
+        + String [ QT https://twitter.com/]
+      [57] invokespecial #34
+        + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [60] aload v4
+      [62] invokevirtual #35
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [65] ldc #2
+        + String [/status/]
+      [67] invokevirtual #35
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [70] aload_3 v3
+      [71] invokevirtual #35
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [74] invokevirtual #36
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [77] astore v5
+      [79] aload_0 v0
+      [80] aload v5
+      [82] invokestatic #37
+        + Methodref [jp/co/wada811/quotetweet/plugin4twicca/QuoteTweetPlugin4twiccaActivity.a (Landroid/content/Context;Ljava/lang/String;)V]
+      [85] aload_0 v0
+      [86] iconst_m1
+      [87] invokevirtual #40
+        + Methodref [jp/co/wada811/quotetweet/plugin4twicca/QuoteTweetPlugin4twiccaActivity.setResult (I)V]
+      [90] aload_0 v0
+      [91] invokevirtual #38
+        + Methodref [jp/co/wada811/quotetweet/plugin4twicca/QuoteTweetPlugin4twiccaActivity.finish ()V]
+      [94] goto +12 (target=106)
+      [97] aload_0 v0
+      [98] iconst_0
+      [99] invokevirtual #40
+        + Methodref [jp/co/wada811/quotetweet/plugin4twicca/QuoteTweetPlugin4twiccaActivity.setResult (I)V]
+      [102] aload_0 v0
+      [103] invokevirtual #38
+        + Methodref [jp/co/wada811/quotetweet/plugin4twicca/QuoteTweetPlugin4twiccaActivity.finish ()V]
+      [106] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 3):
+        - [22] Var: ...[a:android/content/Intent], Stack: (empty)
+        - [97] Var: ...[a:java/lang/String], Stack: (empty)
+        - [106] Var: ..., Stack: (empty)
+  + Method:       a(Landroid/content/Context;Ljava/lang/String;)V
+    Access flags: 0x9
+      = public static void a(android.content.Context,java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 86, locals = 6, stack = 4):
+      [0] ldc #5
+        + String [https://twitter.com/intent/tweet]
+      [2] invokestatic #30
+        + Methodref [android/net/Uri.parse (Ljava/lang/String;)Landroid/net/Uri;]
+      [5] invokevirtual #29
+        + Methodref [android/net/Uri.buildUpon ()Landroid/net/Uri$Builder;]
+      [8] astore_2 v2
+      [9] aload_2 v2
+      [10] ldc #9
+        + String [text]
+      [12] aload_1 v1
+      [13] invokevirtual #31
+        + Methodref [android/net/Uri$Builder.appendQueryParameter (Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri$Builder;]
+      [16] pop
+      [17] aload_2 v2
+      [18] invokevirtual #32
+        + Methodref [android/net/Uri$Builder.build ()Landroid/net/Uri;]
+      [21] astore_3 v3
+      [22] new #14
+        + Class [android/content/Intent]
+      [25] dup
+      [26] ldc #3
+        + String [android.intent.action.VIEW]
+      [28] aload_3 v3
+      [29] invokespecial #24
+        + Methodref [android/content/Intent.<init> (Ljava/lang/String;Landroid/net/Uri;)V]
+      [32] astore v4
+      [34] aload v4
+      [36] ldc #4
+        + String [android.intent.category.DEFAULT]
+      [38] invokevirtual #25
+        + Methodref [android/content/Intent.addCategory (Ljava/lang/String;)Landroid/content/Intent;]
+      [41] pop
+      [42] aload v4
+      [44] ldc #7
+        + String [jp.r246.twicca]
+      [46] invokevirtual #28
+        + Methodref [android/content/Intent.setPackage (Ljava/lang/String;)Landroid/content/Intent;]
+      [49] pop
+      [50] aload_0 v0
+      [51] aload v4
+      [53] invokevirtual #23
+        + Methodref [android/content/Context.startActivity (Landroid/content/Intent;)V]
+      [56] return
+      [57] astore v4
+      [59] new #14
+        + Class [android/content/Intent]
+      [62] dup
+      [63] ldc #3
+        + String [android.intent.action.VIEW]
+      [65] aload_3 v3
+      [66] invokespecial #24
+        + Methodref [android/content/Intent.<init> (Ljava/lang/String;Landroid/net/Uri;)V]
+      [69] astore v5
+      [71] aload v5
+      [73] ldc #4
+        + String [android.intent.category.DEFAULT]
+      [75] invokevirtual #25
+        + Methodref [android/content/Intent.addCategory (Ljava/lang/String;)Landroid/content/Intent;]
+      [78] pop
+      [79] aload_0 v0
+      [80] aload v5
+      [82] invokevirtual #23
+        + Methodref [android/content/Context.startActivity (Landroid/content/Intent;)V]
+      [85] return
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (22 -> 56: 57):
+      + Class [android/content/ActivityNotFoundException]
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [57] Var: [a:android/content/Context][a:java/lang/String][a:android/net/Uri$Builder][a:android/net/Uri], Stack: [a:android/content/ActivityNotFoundException]
+
+Class file attributes (count = 0):
+
