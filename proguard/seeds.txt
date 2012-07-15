@@ -1,3 +1,9 @@
 jp.co.wada811.quotetweet.plugin4twicca.QuoteTweetPlugin4twiccaActivity
+jp.co.wada811.quotetweet.plugin4twicca.QuoteTweetSettings
 jp.co.wada811.quotetweet.plugin4twicca.R$drawable: int ic_launcher
 jp.co.wada811.quotetweet.plugin4twicca.R$string: int app_name
+jp.co.wada811.quotetweet.plugin4twicca.R$string: int key
+jp.co.wada811.quotetweet.plugin4twicca.R$string: int off
+jp.co.wada811.quotetweet.plugin4twicca.R$string: int on
+jp.co.wada811.quotetweet.plugin4twicca.R$string: int title
+jp.co.wada811.quotetweet.plugin4twicca.R$xml: int pref

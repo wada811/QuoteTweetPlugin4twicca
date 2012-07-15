@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">QuoteTweet プラグイン for twicca</string>
+    <string name="key">reply</string>
+    <string name="title">リプライを入れる</string>
+    <string name="on">QT @screen_name https://twitter.com/</string>
+    <string name="off">QT https://twitter.com/</string>
 </resources>

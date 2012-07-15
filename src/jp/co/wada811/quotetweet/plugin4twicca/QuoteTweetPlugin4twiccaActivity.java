@@ -4,8 +4,10 @@ import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 
 public class QuoteTweetPlugin4twiccaActivity extends Activity{
     /** Called when the activity is first created. */
@@ -27,7 +29,9 @@ public class QuoteTweetPlugin4twiccaActivity extends Activity{
         if(action.equals("jp.r246.twicca.ACTION_SHOW_TWEET")){
             final String statusId = intent.getStringExtra("id");
             final String screenName = intent.getStringExtra("user_screen_name");
-            final String tweet = " QT https://twitter.com/" + screenName + "/status/" + statusId;
+            SharedPreferences preference = PreferenceManager.getDefaultSharedPreferences(this);
+            final String reply = preference.getBoolean(getString(R.string.key), false) ? " @" + screenName : " ";
+            final String tweet = " QT" + reply + " https://twitter.com/" + screenName + "/status/" + statusId;
             tweet(this, tweet);
             setResult(RESULT_OK);
             finish();

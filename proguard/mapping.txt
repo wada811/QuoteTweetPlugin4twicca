@@ -2,3 +2,10 @@ jp.co.wada811.quotetweet.plugin4twicca.QuoteTweetPlugin4twiccaActivity -> jp.co.
     void onCreate(android.os.Bundle) -> onCreate
     void onStart() -> onStart
     void tweet(android.content.Context,java.lang.String) -> a
+jp.co.wada811.quotetweet.plugin4twicca.QuoteTweetSettings -> jp.co.wada811.quotetweet.plugin4twicca.QuoteTweetSettings:
+    void onCreate(android.os.Bundle) -> onCreate
+    void onStart() -> onStart
+jp.co.wada811.quotetweet.plugin4twicca.QuoteTweetSettings$1 -> jp.co.wada811.quotetweet.plugin4twicca.a:
+    jp.co.wada811.quotetweet.plugin4twicca.QuoteTweetSettings this$0 -> a
+    android.content.SharedPreferences val$sp -> b
+    boolean onPreferenceChange(android.preference.Preference,java.lang.Object) -> onPreferenceChange
